@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/Roman160893.github.io/lecture27/static/css/main.92208460.css",
-    "main.js": "/Roman160893.github.io/lecture27/static/js/main.9fa458b1.js",
-    "static/media/backgroung_home_page.jpg": "/Roman160893.github.io/lecture27/static/media/backgroung_home_page.2cc2659c57d29d25b73c.jpg",
-    "index.html": "/Roman160893.github.io/lecture27/index.html",
-    "main.92208460.css.map": "/Roman160893.github.io/lecture27/static/css/main.92208460.css.map",
-    "main.9fa458b1.js.map": "/Roman160893.github.io/lecture27/static/js/main.9fa458b1.js.map"
+    "main.css": "/roman160893.github.io/lecture27/static/css/main.57793608.css",
+    "main.js": "/roman160893.github.io/lecture27/static/js/main.9fa458b1.js",
+    "static/media/backgroung_home_page.jpg": "/roman160893.github.io/lecture27/static/media/backgroung_home_page.2cc2659c57d29d25b73c.jpg",
+    "index.html": "/roman160893.github.io/lecture27/index.html",
+    "main.57793608.css.map": "/roman160893.github.io/lecture27/static/css/main.57793608.css.map",
+    "main.9fa458b1.js.map": "/roman160893.github.io/lecture27/static/js/main.9fa458b1.js.map"
   },
   "entrypoints": [
-    "static/css/main.92208460.css",
+    "static/css/main.57793608.css",
     "static/js/main.9fa458b1.js"
   ]
 }
