@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/roman160893.github.io/lecture27/static/css/main.57793608.css",
-    "main.js": "/roman160893.github.io/lecture27/static/js/main.9fa458b1.js",
-    "static/media/backgroung_home_page.jpg": "/roman160893.github.io/lecture27/static/media/backgroung_home_page.2cc2659c57d29d25b73c.jpg",
-    "index.html": "/roman160893.github.io/lecture27/index.html",
-    "main.57793608.css.map": "/roman160893.github.io/lecture27/static/css/main.57793608.css.map",
-    "main.9fa458b1.js.map": "/roman160893.github.io/lecture27/static/js/main.9fa458b1.js.map"
+    "main.css": "/lecture27/static/css/main.d6085b72.css",
+    "main.js": "/lecture27/static/js/main.9fa458b1.js",
+    "static/media/backgroung_home_page.jpg": "/lecture27/static/media/backgroung_home_page.2cc2659c57d29d25b73c.jpg",
+    "index.html": "/lecture27/index.html",
+    "main.d6085b72.css.map": "/lecture27/static/css/main.d6085b72.css.map",
+    "main.9fa458b1.js.map": "/lecture27/static/js/main.9fa458b1.js.map"
   },
   "entrypoints": [
-    "static/css/main.57793608.css",
+    "static/css/main.d6085b72.css",
     "static/js/main.9fa458b1.js"
   ]
 }
