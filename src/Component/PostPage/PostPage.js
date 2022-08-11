@@ -1,6 +1,6 @@
 import React from 'react';
 import { useSelector, useDispatch } from 'react-redux';
-import { likesPosts, repostPost } from '../../store/postsReducer/postsActions';
+import { commentPost, likesPosts, repostPost } from '../../store/postsReducer/postsActions';
 import { postSelector } from '../../store/postsReducer/postsReducer';
 import './PostPage.scss'
 
@@ -37,7 +37,7 @@ const PostPage = () => {
    function clickComments(e, pos) {
       auth[pos].commentarsBoolean = !auth[pos].commentarsBoolean
 
-      dispath(repostPost())
+      dispath(commentPost())
 
       if (auth[pos].commentarsBoolean) {
          auth[pos].commentars++

@@ -29,10 +29,6 @@ const AddPosts = () => {
 
    const dispatch = useDispatch();
 
-   const selector = useSelector(postSelector)
-
-   console.log(selector);
-
    function clickAdd(e) {
       if (imgValue == '' || postText == '' || nameValue === '' || nameValue === 'Виберіть автора') {
          alert('заповніть всі поля')
