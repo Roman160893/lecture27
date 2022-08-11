@@ -1,8 +1,10 @@
 import React, { useState } from 'react';
-import { useDispatch } from 'react-redux/es/exports';
+import { useDispatch, useSelector } from 'react-redux/es/exports';
 import { addPosts } from '../../store/postsReducer/postsActions';
 import { getNameValue } from '../../utils/function';
 import './addPostStyle.scss'
+import { store } from '../../store/store'
+import { postSelector } from '../../store/postsReducer/postsReducer';
 
 
 const AddPosts = () => {
@@ -26,6 +28,10 @@ const AddPosts = () => {
    }
 
    const dispatch = useDispatch();
+
+   const selector = useSelector(postSelector)
+
+   console.log(selector);
 
    function clickAdd(e) {
       if (imgValue == '' || postText == '' || nameValue === '' || nameValue === 'Виберіть автора') {
