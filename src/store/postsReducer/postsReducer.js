@@ -1,4 +1,7 @@
 import { ADD_POST, COMMENTS_POST, LIKE_POST, REPOST_POST } from "./postsTypes";
+import fryingPan from '../../img/fryingPan.jpg'
+import linens from '../../img/linens.jpg'
+import homeAlone from '../../img/homeAlone.png'
 
 const initialState = [
    {
@@ -7,7 +10,7 @@ const initialState = [
       nickName: '@kozak',
       datePublication: '06 серпня',
       textPublication: "WTF",
-      imgPublication: 'https://scontent.flwo3-1.fna.fbcdn.net/v/t39.30808-6/297760630_114436081352969_8568743557921235827_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=5cd70e&_nc_ohc=mH71OQZF6wgAX_EvW3t&_nc_ht=scontent.flwo3-1.fna&oh=00_AT9MShv5NMRl96x7R2_5OAR0Ki3t_zciQ5wz1qocxzdSkA&oe=62F81B37',
+      imgPublication: `${homeAlone}`,
       like: 13,
       liked: false,
       commentars: 2,
@@ -21,7 +24,7 @@ const initialState = [
       nickName: '@Yulia',
       datePublication: '07 серпня',
       textPublication: "Пательня з підвіскою для вогню - це найкращий подарунок! Наша пательня нікого не залишить байдужими, адже Ви б лише спробували страви з неї... і захочете ще і ще 😜",
-      imgPublication: 'https://scontent.flwo3-1.fna.fbcdn.net/v/t45.1600-4/296148938_23851438734940447_6815106443087441589_n.jpg?stp=cp0_dst-jpg_p526x296_q75_spS444&_nc_cat=102&ccb=1-7&_nc_sid=e84a38&_nc_ohc=UuG7YuojsYIAX8eo-ck&_nc_ht=scontent.flwo3-1.fna&oh=00_AT83xpbsby_JTgT6WivCEi75egJg4uGd41hKxngehfxuTA&oe=62F732C5',
+      imgPublication: `${fryingPan}`,
       like: 466,
       liked: false,
       commentars: 512,
@@ -35,7 +38,7 @@ const initialState = [
       nickName: '@ND',
       datePublication: '08 серпня',
       textPublication: "Розпродаж Постільної Білизни Знижки до -60%",
-      imgPublication: 'https://scontent.flwo3-1.fna.fbcdn.net/v/t45.1600-4/284627470_23850437044000138_8030446900201546197_n.jpg?stp=cp0_dst-jpg_fr_q75_spS444&_nc_cat=111&ccb=1-7&_nc_sid=67cdda&_nc_aid=0&_nc_ohc=0ueN89nvOjIAX_za5wR&_nc_ht=scontent.flwo3-1.fna&oh=00_AT9mZeTCX5WVL9Ed6Hqk16J4OaKMoNIpjs1HsHyVTfeZvQ&oe=62F71CDF',
+      imgPublication: `${linens}`,
       like: 29,
       liked: false,
       commentars: 5,
