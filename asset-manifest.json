@@ -1,14 +1,17 @@
 {
   "files": {
     "main.css": "/lecture27/static/css/main.d6085b72.css",
-    "main.js": "/lecture27/static/js/main.961d6c81.js",
+    "main.js": "/lecture27/static/js/main.c401f301.js",
     "static/media/backgroung_home_page.jpg": "/lecture27/static/media/backgroung_home_page.2cc2659c57d29d25b73c.jpg",
+    "static/media/fryingPan.jpg": "/lecture27/static/media/fryingPan.01b9e6aefdb29854d2af.jpg",
+    "static/media/homeAlone.png": "/lecture27/static/media/homeAlone.5946822fe10c6f032b3b.png",
+    "static/media/linens.jpg": "/lecture27/static/media/linens.41daebefdc306c50bef9.jpg",
     "index.html": "/lecture27/index.html",
     "main.d6085b72.css.map": "/lecture27/static/css/main.d6085b72.css.map",
-    "main.961d6c81.js.map": "/lecture27/static/js/main.961d6c81.js.map"
+    "main.c401f301.js.map": "/lecture27/static/js/main.c401f301.js.map"
   },
   "entrypoints": [
     "static/css/main.d6085b72.css",
-    "static/js/main.961d6c81.js"
+    "static/js/main.c401f301.js"
   ]
 }
